@@ -5,42 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Google</title>
 </head>
-
 <body>
-    <div class="navbar"> 
-        <ul>
-            <li><a href="#"></a>Gmail</li>
-            <li><a href="#"></a>Images</li>
-            <span class="material-icons-outlined">drag_indicator</span>
-            <span class="material-icons-outlined">face</span>
-        </ul>
+    <div class="container">
+        <div class="lheader">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                
+            </ul>
+        </div>
+        <div class="rheader">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <a href="#"><span class="material-icons-round">apps</span></a>
+                <a href="#"></a><img src="images/photo.jpg" alt="Avatar" class="avatar"></a>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="logo-center">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo" class="logo">
+            </div>
+            
+            <div class="searchbar">
+                <input type="text" id="search" name="search">
+            </div>            
+            
+            <div class="buttons">
+                <button type="button">Google Search</button>
+                <button type="button">I'm Feeling Lucky!</button>
+            </div>
+        </div>
+        <div class="lfooter">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+        </div>
+        <div class="rfooter">
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
     </div>
-    
-    <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="center">
-    </div>
-
-    <div class="searchbar">       
-        <form>
-            <input type="text" class="center">
-        </form>
-    </div>
-
-    <div class="buttons">  
-        <button type="button">Google Search</button>   
-        <button type="button">I'm feeling lucky!</button>       
-    </div>
-              
-    <div class="footer">
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-        </ul>
-    </div>
-    
 </body>
 </html>
